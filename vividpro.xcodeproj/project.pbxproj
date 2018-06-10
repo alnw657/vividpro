@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04510108C2A7E666000831FD /* libPods-vividproTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0178CAC2F0CAF27103E0DFD3 /* libPods-vividproTests.a */; };
+		7EC8A22808A02EC3E2CF3723 /* libPods-vividproUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 997DFABCE08935F05717C4EB /* libPods-vividproUITests.a */; };
+		8115EC3642EC104252E01F3D /* libPods-vividpro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5CC44E503B7DE657EF59E2 /* libPods-vividpro.a */; };
+		E7034EC420B0757C007C3A66 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7034EC320B0757C007C3A66 /* SignInViewController.m */; };
+		E70AEFC020C3F2200064DECE /* MainLoggedIn.m in Sources */ = {isa = PBXBuildFile; fileRef = E70AEFBE20C3F21F0064DECE /* MainLoggedIn.m */; };
+		E727F4B220C60DE700AD0D24 /* ImageEditing.m in Sources */ = {isa = PBXBuildFile; fileRef = E727F4B120C60DE700AD0D24 /* ImageEditing.m */; };
+		E73BC77E20C0363A001AB1E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E73BC77D20C0363A001AB1E0 /* GoogleService-Info.plist */; };
+		E752CFBF20CBA3EF00FF9FF6 /* UserClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E752CFBE20CBA3EF00FF9FF6 /* UserClass.m */; };
+		E752CFC220CBA55500FF9FF6 /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = E752CFC120CBA55500FF9FF6 /* AppData.m */; };
+		E752CFC520CC9F3E00FF9FF6 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E752CFC420CC9F3E00FF9FF6 /* SignUpViewController.m */; };
 		E7D65E5120ADC93900DAF2D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D65E5020ADC93900DAF2D3 /* AppDelegate.m */; };
 		E7D65E5420ADC93900DAF2D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D65E5320ADC93900DAF2D3 /* ViewController.m */; };
 		E7D65E5720ADC93900DAF2D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D65E5520ADC93900DAF2D3 /* Main.storyboard */; };
@@ -35,6 +45,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0178CAC2F0CAF27103E0DFD3 /* libPods-vividproTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vividproTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02DE7C98A030E9E1CD5AE24C /* Pods-vividproUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vividproUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vividproUITests/Pods-vividproUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0BD5EAD5AC00F77A0654604A /* Pods-vividproTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vividproTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vividproTests/Pods-vividproTests.debug.xcconfig"; sourceTree = "<group>"; };
+		139E76E07AD900BECC904740 /* Pods-vividproUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vividproUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vividproUITests/Pods-vividproUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7862FBF7F25965276619E408 /* Pods-vividpro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vividpro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vividpro/Pods-vividpro.debug.xcconfig"; sourceTree = "<group>"; };
+		997DFABCE08935F05717C4EB /* libPods-vividproUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vividproUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24CCC1FB827A89C4E257440 /* Pods-vividpro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vividpro.release.xcconfig"; path = "Pods/Target Support Files/Pods-vividpro/Pods-vividpro.release.xcconfig"; sourceTree = "<group>"; };
+		B3ECAEC6B8F3D59E652E11B6 /* Pods-vividproTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vividproTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vividproTests/Pods-vividproTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7034EC220B0757C007C3A66 /* SignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		E7034EC320B0757C007C3A66 /* SignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		E70AEFBE20C3F21F0064DECE /* MainLoggedIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainLoggedIn.m; path = /Users/alan/Desktop/vividpro/vividpro/MainLoggedIn.m; sourceTree = "<absolute>"; };
+		E70AEFBF20C3F2200064DECE /* MainLoggedIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainLoggedIn.h; path = /Users/alan/Desktop/vividpro/vividpro/MainLoggedIn.h; sourceTree = "<absolute>"; };
+		E727F4B020C60DE700AD0D24 /* ImageEditing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageEditing.h; sourceTree = "<group>"; };
+		E727F4B120C60DE700AD0D24 /* ImageEditing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageEditing.m; sourceTree = "<group>"; };
+		E73BC77D20C0363A001AB1E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E752CFBD20CBA3EF00FF9FF6 /* UserClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserClass.h; sourceTree = "<group>"; };
+		E752CFBE20CBA3EF00FF9FF6 /* UserClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserClass.m; sourceTree = "<group>"; };
+		E752CFC020CBA55500FF9FF6 /* AppData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
+		E752CFC120CBA55500FF9FF6 /* AppData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
+		E752CFC320CC9F3E00FF9FF6 /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		E752CFC420CC9F3E00FF9FF6 /* SignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		E7D65E4C20ADC93900DAF2D3 /* vividpro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vividpro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D65E4F20ADC93900DAF2D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E7D65E5020ADC93900DAF2D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +82,7 @@
 		E7D65E6F20ADC93B00DAF2D3 /* vividproUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vividproUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D65E7320ADC93B00DAF2D3 /* vividproUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vividproUITests.m; sourceTree = "<group>"; };
 		E7D65E7520ADC93B00DAF2D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5CC44E503B7DE657EF59E2 /* libPods-vividpro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vividpro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8115EC3642EC104252E01F3D /* libPods-vividpro.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04510108C2A7E666000831FD /* libPods-vividproTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +106,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC8A22808A02EC3E2CF3723 /* libPods-vividproUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07D7267EBE0E2EF9BA034323 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7862FBF7F25965276619E408 /* Pods-vividpro.debug.xcconfig */,
+				B24CCC1FB827A89C4E257440 /* Pods-vividpro.release.xcconfig */,
+				0BD5EAD5AC00F77A0654604A /* Pods-vividproTests.debug.xcconfig */,
+				B3ECAEC6B8F3D59E652E11B6 /* Pods-vividproTests.release.xcconfig */,
+				02DE7C98A030E9E1CD5AE24C /* Pods-vividproUITests.debug.xcconfig */,
+				139E76E07AD900BECC904740 /* Pods-vividproUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A13399229C91A07E973104FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED5CC44E503B7DE657EF59E2 /* libPods-vividpro.a */,
+				0178CAC2F0CAF27103E0DFD3 /* libPods-vividproTests.a */,
+				997DFABCE08935F05717C4EB /* libPods-vividproUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E7D65E4320ADC93900DAF2D3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +143,8 @@
 				E7D65E6720ADC93B00DAF2D3 /* vividproTests */,
 				E7D65E7220ADC93B00DAF2D3 /* vividproUITests */,
 				E7D65E4D20ADC93900DAF2D3 /* Products */,
+				07D7267EBE0E2EF9BA034323 /* Pods */,
+				A13399229C91A07E973104FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +161,28 @@
 		E7D65E4E20ADC93900DAF2D3 /* vividpro */ = {
 			isa = PBXGroup;
 			children = (
+				E70AEFBF20C3F2200064DECE /* MainLoggedIn.h */,
+				E70AEFBE20C3F21F0064DECE /* MainLoggedIn.m */,
+				E73BC77D20C0363A001AB1E0 /* GoogleService-Info.plist */,
+				E752CFBD20CBA3EF00FF9FF6 /* UserClass.h */,
+				E752CFBE20CBA3EF00FF9FF6 /* UserClass.m */,
+				E752CFC020CBA55500FF9FF6 /* AppData.h */,
+				E752CFC120CBA55500FF9FF6 /* AppData.m */,
 				E7D65E4F20ADC93900DAF2D3 /* AppDelegate.h */,
 				E7D65E5020ADC93900DAF2D3 /* AppDelegate.m */,
 				E7D65E5220ADC93900DAF2D3 /* ViewController.h */,
 				E7D65E5320ADC93900DAF2D3 /* ViewController.m */,
 				E7D65E5520ADC93900DAF2D3 /* Main.storyboard */,
+				E752CFC320CC9F3E00FF9FF6 /* SignUpViewController.h */,
+				E752CFC420CC9F3E00FF9FF6 /* SignUpViewController.m */,
+				E7034EC220B0757C007C3A66 /* SignInViewController.h */,
+				E7034EC320B0757C007C3A66 /* SignInViewController.m */,
 				E7D65E5820ADC93B00DAF2D3 /* Assets.xcassets */,
 				E7D65E5A20ADC93B00DAF2D3 /* LaunchScreen.storyboard */,
 				E7D65E5D20ADC93B00DAF2D3 /* Info.plist */,
 				E7D65E5E20ADC93B00DAF2D3 /* main.m */,
+				E727F4B020C60DE700AD0D24 /* ImageEditing.h */,
+				E727F4B120C60DE700AD0D24 /* ImageEditing.m */,
 			);
 			path = vividpro;
 			sourceTree = "<group>";
@@ -139,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7D65E7820ADC93B00DAF2D3 /* Build configuration list for PBXNativeTarget "vividpro" */;
 			buildPhases = (
+				DE37FDD98CB0E341C3F032D1 /* [CP] Check Pods Manifest.lock */,
 				E7D65E4820ADC93900DAF2D3 /* Sources */,
 				E7D65E4920ADC93900DAF2D3 /* Frameworks */,
 				E7D65E4A20ADC93900DAF2D3 /* Resources */,
@@ -156,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7D65E7B20ADC93B00DAF2D3 /* Build configuration list for PBXNativeTarget "vividproTests" */;
 			buildPhases = (
+				37A4BAF87BB84D8F9F3D62FE /* [CP] Check Pods Manifest.lock */,
 				E7D65E6020ADC93B00DAF2D3 /* Sources */,
 				E7D65E6120ADC93B00DAF2D3 /* Frameworks */,
 				E7D65E6220ADC93B00DAF2D3 /* Resources */,
@@ -174,6 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7D65E7E20ADC93B00DAF2D3 /* Build configuration list for PBXNativeTarget "vividproUITests" */;
 			buildPhases = (
+				680401184322718752DA7E50 /* [CP] Check Pods Manifest.lock */,
 				E7D65E6B20ADC93B00DAF2D3 /* Sources */,
 				E7D65E6C20ADC93B00DAF2D3 /* Frameworks */,
 				E7D65E6D20ADC93B00DAF2D3 /* Resources */,
@@ -236,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7D65E5C20ADC93B00DAF2D3 /* LaunchScreen.storyboard in Resources */,
+				E73BC77E20C0363A001AB1E0 /* GoogleService-Info.plist in Resources */,
 				E7D65E5920ADC93B00DAF2D3 /* Assets.xcassets in Resources */,
 				E7D65E5720ADC93900DAF2D3 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +334,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37A4BAF87BB84D8F9F3D62FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vividproTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		680401184322718752DA7E50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vividproUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE37FDD98CB0E341C3F032D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vividpro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E7D65E4820ADC93900DAF2D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7034EC420B0757C007C3A66 /* SignInViewController.m in Sources */,
 				E7D65E5420ADC93900DAF2D3 /* ViewController.m in Sources */,
+				E727F4B220C60DE700AD0D24 /* ImageEditing.m in Sources */,
 				E7D65E5F20ADC93B00DAF2D3 /* main.m in Sources */,
 				E7D65E5120ADC93900DAF2D3 /* AppDelegate.m in Sources */,
+				E752CFBF20CBA3EF00FF9FF6 /* UserClass.m in Sources */,
+				E70AEFC020C3F2200064DECE /* MainLoggedIn.m in Sources */,
+				E752CFC520CC9F3E00FF9FF6 /* SignUpViewController.m in Sources */,
+				E752CFC220CBA55500FF9FF6 /* AppData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,10 +571,13 @@
 		};
 		E7D65E7920ADC93B00DAF2D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7862FBF7F25965276619E408 /* Pods-vividpro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7WABGA33U9;
 				INFOPLIST_FILE = vividpro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +590,13 @@
 		};
 		E7D65E7A20ADC93B00DAF2D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24CCC1FB827A89C4E257440 /* Pods-vividpro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7WABGA33U9;
 				INFOPLIST_FILE = vividpro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +609,7 @@
 		};
 		E7D65E7C20ADC93B00DAF2D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD5EAD5AC00F77A0654604A /* Pods-vividproTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +628,7 @@
 		};
 		E7D65E7D20ADC93B00DAF2D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3ECAEC6B8F3D59E652E11B6 /* Pods-vividproTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +647,7 @@
 		};
 		E7D65E7F20ADC93B00DAF2D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02DE7C98A030E9E1CD5AE24C /* Pods-vividproUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = vividproUITests/Info.plist;
@@ -516,6 +665,7 @@
 		};
 		E7D65E8020ADC93B00DAF2D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139E76E07AD900BECC904740 /* Pods-vividproUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = vividproUITests/Info.plist;

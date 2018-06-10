@@ -24,6 +24,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)username:(id)sender {
+}
 
+- (IBAction)password:(id)sender {
+}
 
 @end

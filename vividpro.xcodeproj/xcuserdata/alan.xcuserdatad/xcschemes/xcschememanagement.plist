@@ -7,7 +7,25 @@
 		<key>vividpro.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>10</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E7D65E4B20ADC93900DAF2D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E7D65E6320ADC93B00DAF2D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E7D65E6E20ADC93B00DAF2D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>658149791058-se8fvhtt902ifv3l5soenf95k1ieibfi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.658149791058-se8fvhtt902ifv3l5soenf95k1ieibfi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAZ9dm8phm-8xG31kh_IZBofCj6DW2lSFo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>658149791058</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>alan.vividpro</string>
+	<key>PROJECT_ID</key>
+	<string>vividpro-2e282</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vividpro-2e282.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:658149791058:ios:218ddf7ef3a1daaa</string>
+	<key>DATABASE_URL</key>
+	<string>https://vividpro-2e282.firebaseio.com</string>
+</dict>
+</plist>
