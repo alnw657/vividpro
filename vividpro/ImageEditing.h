@@ -12,5 +12,6 @@
 @property (strong, nonatomic) IBOutlet UIImageView *albumImage;
 @property (strong, nonatomic) UIImage *image;
 - (IBAction)savebutton:(id)sender;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollview;
 - (IBAction)blackandwhitebutton:(id)sender;
 @end
