@@ -66,4 +66,7 @@
 }
 
 
+- (IBAction)normalbutton:(id)sender {
+    self.albumImage.image = image;
+}
 @end

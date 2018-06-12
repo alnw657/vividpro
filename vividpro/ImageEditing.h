@@ -14,4 +14,6 @@
 - (IBAction)savebutton:(id)sender;
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollview;
 - (IBAction)blackandwhitebutton:(id)sender;
+
+- (IBAction)normalbutton:(id)sender;
 @end
