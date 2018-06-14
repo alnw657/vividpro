@@ -7,6 +7,7 @@
 
 #import "MainLoggedIn.h"
 #import "ImageEditing.h"
+@import Firebase;
 @interface MainLoggedIn ()
 
 @end
@@ -51,6 +52,18 @@
 
    // [self performSegueWithIdentifier:@"goToImageView" sender:sender];
 
+}
+
+- (IBAction)Signoutbutton:(id)sender {
+    NSError *signOutError;
+    BOOL status = [[FIRAuth auth] signOut:&signOutError];
+    if (!status) {
+        NSLog(@"Error signing out: %@", signOutError);
+        return;
+        
+        
+    }
+     [self performSegueWithIdentifier:@"gotomainview" sender:self];
 }
 
 

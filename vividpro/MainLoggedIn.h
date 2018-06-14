@@ -11,6 +11,8 @@
 
 - (IBAction)Opencamera:(id)sender;
 - (IBAction)Openphoto:(id)sender;
+- (IBAction)Signoutbutton:(id)sender;
+
 
 
 @property (strong, nonatomic) UIImage *image1;

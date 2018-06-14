@@ -8,7 +8,7 @@
 
 #import "ImageEditing.h"
 #import "MainLoggedIn.h"
-
+@import AssetsLibrary;
 
 @interface ImageEditing ()
 
@@ -46,11 +46,14 @@
 
 
 - (IBAction)savebutton:(id)sender {
-    NSString *path = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/ImageFileName.jpg"];
-    [UIImageJPEGRepresentation(self.albumImage.image, 1.0)writeToFile:path atomically:YES];
+    UIImage *imagetosave = _albumImage.image;
+    UIImageWriteToSavedPhotosAlbum(imagetosave, nil, nil, nil);
+     [self performSegueWithIdentifier:@"gotofinishedview" sender:self];
 }
 
 - (IBAction)blackandwhitebutton:(id)sender {
+    UIImageOrientation originalOrientation = _albumImage.image.imageOrientation;
+    CGFloat originalscale = _albumImage.image.scale;
     CIImage *beginImage = [CIImage imageWithCGImage:[_albumImage.image CGImage]];
     CIContext *context = [CIContext contextWithOptions:nil];
     
@@ -58,7 +61,7 @@
     CIImage *outputImage = [filter outputImage];
     
     CGImageRef cgimg = [context createCGImage:outputImage fromRect:[outputImage extent]];
-    UIImage *newImg = [UIImage imageWithCGImage:cgimg];
+    UIImage *newImg = [UIImage imageWithCGImage:cgimg scale:originalscale orientation:originalOrientation];
     
     [_albumImage setImage:newImg];
     
