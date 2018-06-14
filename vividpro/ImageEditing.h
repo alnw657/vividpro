@@ -8,12 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface ImageEditing : UIViewController <UINavigationBarDelegate, UIImagePickerControllerDelegate>
 @property (strong, nonatomic) IBOutlet UIImageView *albumImage;
 @property (strong, nonatomic) UIImage *image;
 - (IBAction)savebutton:(id)sender;
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollview;
+@property(nonatomic, strong) UIColor *tintColor;
 - (IBAction)blackandwhitebutton:(id)sender;
-
+- (IBAction)pinkbutton:(id)sender;
+- (IBAction)purplebutton:(id)sender;
+- (IBAction)icybutton:(id)sender;
 - (IBAction)normalbutton:(id)sender;
 @end
