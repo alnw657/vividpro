@@ -24,7 +24,7 @@
         [pickerController setSourceType:UIImagePickerControllerSourceTypeCamera];
         pickerController.allowsEditing = NO;
         [self presentViewController:pickerController animated:YES completion:nil];
-     // [self performSegueWithIdentifier:@"goToImageView" sender:sender];
+ 
         
         
     } else{
@@ -50,7 +50,6 @@
         [self presentViewController:pickerController animated:YES completion:nil];
     
 
-   // [self performSegueWithIdentifier:@"goToImageView" sender:sender];
 
 }
 
@@ -74,7 +73,6 @@
 
 - (void)imagePickerController:(UIImagePickerController *)pickerController didFinishPickingMediaWithInfo:(NSDictionary *)info{
     image1 = [info valueForKey:UIImagePickerControllerOriginalImage];
-    //self.albumImage.image = image;
     [self dismissViewControllerAnimated:YES completion:nil];
      [self performSegueWithIdentifier:@"goToImageView" sender:self];
 }

@@ -69,9 +69,28 @@
     CGImageRelease(cgimg);
 }
 
-- (IBAction)pinkbutton:(id)sender {
+- (IBAction)sepiabutton:(id)sender {
+    self.albumImage.image = image;
+    UIImageOrientation originalOrientation = _albumImage.image.imageOrientation;
+    CGFloat originalscale = _albumImage.image.scale;
+    CIImage *beginImage = [CIImage imageWithCGImage:[_albumImage.image CGImage]];
+    CIContext *context = [CIContext contextWithOptions:nil];
     
-     self.albumImage.image = image;
+    CIFilter *filter = [CIFilter filterWithName:@"CISepiaTone" keysAndValues: kCIInputImageKey, beginImage, @"inputIntensity", [NSNumber numberWithFloat:1.0], nil];
+    CIImage *outputImage = [filter outputImage];
+    
+    CGImageRef cgimg = [context createCGImage:outputImage fromRect:[outputImage extent]];
+    UIImage *newImg = [UIImage imageWithCGImage:cgimg scale:originalscale orientation:originalOrientation];
+    
+    [_albumImage setImage:newImg];
+    
+    CGImageRelease(cgimg);
+    
+}
+
+- (IBAction)lanabutton:(id)sender {
+   
+    self.albumImage.image = image;
     UIImageOrientation originalOrientation = _albumImage.image.imageOrientation;
     CGFloat originalscale = _albumImage.image.scale;
     CIImage *beginImage = [CIImage imageWithCGImage:[_albumImage.image CGImage]];
@@ -85,28 +104,31 @@
     CIFilter *effectFilter = [CIFilter filterWithName:@"CIPhotoEffectInstant"];
     [effectFilter setValue:filteredImage forKey:kCIInputImageKey];
     filteredImage = [effectFilter outputImage];
-     CIContext *context = [CIContext contextWithOptions:nil];
+    CIContext *context = [CIContext contextWithOptions:nil];
     CGImageRef cgimg = [context createCGImage:filteredImage fromRect:filteredImage.extent];
     UIImage *newImg = [UIImage imageWithCGImage:cgimg scale:originalscale orientation:originalOrientation];
     
-     [_albumImage setImage:newImg];
+    [_albumImage setImage:newImg];
+    
+    
+    
+    
 }
 
-- (IBAction)purplebutton:(id)sender {
-    self.albumImage.image = image;
+
+- (IBAction)randombutton:(id)sender {
+   
+    
     UIImageOrientation originalOrientation = _albumImage.image.imageOrientation;
     CGFloat originalscale = _albumImage.image.scale;
     CIImage *beginImage = [CIImage imageWithCGImage:[_albumImage.image CGImage]];
     
     CIFilter *filter = [CIFilter filterWithName:@"CIHueAdjust"];
     
-    // Change the float value here to change the hue
     [filter setValue:[NSNumber numberWithFloat:0.5] forKey: @"inputAngle"];
-    
-    // input black and white image
+   
     [filter setValue:beginImage forKey:kCIInputImageKey];
     
-    // get output from filter
     CIImage *hueImage = [filter valueForKey:kCIOutputImageKey];
     
     CIContext *context = [CIContext contextWithOptions:nil];
@@ -114,31 +136,11 @@
     CGImageRef cgImage = [context createCGImage:hueImage
                                        fromRect:[hueImage extent]];
     
-   
+    
     UIImage *newImg = [UIImage imageWithCGImage:cgImage scale:originalscale orientation:originalOrientation];
     [_albumImage setImage:newImg];
     CGImageRelease(cgImage);
     
-    
-}
-
-
-- (IBAction)icybutton:(id)sender {
-    self.albumImage.image = image;
-     UIImageOrientation originalOrientation = _albumImage.image.imageOrientation;
-     CGFloat originalscale = _albumImage.image.scale;
-     CIImage *beginImage = [CIImage imageWithCGImage:[_albumImage.image CGImage]];
-     CIContext *context = [CIContext contextWithOptions:nil];
-     
-     CIFilter *filter = [CIFilter filterWithName:@"CISepiaTone" keysAndValues: kCIInputImageKey, beginImage, @"inputIntensity", [NSNumber numberWithFloat:0.8], nil];
-     CIImage *outputImage = [filter outputImage];
-     
-     CGImageRef cgimg = [context createCGImage:outputImage fromRect:[outputImage extent]];
-     UIImage *newImg = [UIImage imageWithCGImage:cgimg scale:originalscale orientation:originalOrientation];
-     
-     [_albumImage setImage:newImg];
-     
-     CGImageRelease(cgimg);
     
 
    

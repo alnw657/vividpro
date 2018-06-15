@@ -60,7 +60,7 @@
                                     
                                     else{
                                         //display error message
-                                        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"The Fields Have Not Been Completed" message:@"Please check if you missed any fields above." preferredStyle:UIAlertControllerStyleAlert];
+                                        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Email or Password is not correct" message:@"Please check and correct it." preferredStyle:UIAlertControllerStyleAlert];
                                         UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {}];
                                         [alert addAction:action];
                                         [self presentViewController:alert animated:YES completion:nil];

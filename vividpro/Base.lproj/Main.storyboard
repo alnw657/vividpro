@@ -242,11 +242,11 @@
                                                     <constraint firstAttribute="width" constant="89" id="mm5-2I-65u"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
-                                                <state key="normal" title="Pink" backgroundImage="pink">
+                                                <state key="normal" title="Sepia" backgroundImage="sepia">
                                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="pinkbutton:" destination="8Kj-rW-oa7" eventType="touchUpInside" id="OCI-B9-UHt"/>
+                                                    <action selector="sepiabutton:" destination="8Kj-rW-oa7" eventType="touchUpInside" id="3gf-fc-OH6"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVe-d9-eVl">
@@ -256,11 +256,11 @@
                                                     <constraint firstAttribute="height" constant="89" id="blA-PG-STB"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
-                                                <state key="normal" title="Purple" backgroundImage="purple">
+                                                <state key="normal" title="Lana" backgroundImage="lana">
                                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="purplebutton:" destination="8Kj-rW-oa7" eventType="touchUpInside" id="SnS-6U-Zls"/>
+                                                    <action selector="lanabutton:" destination="8Kj-rW-oa7" eventType="touchUpInside" id="Ih0-cS-qKD"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0Z-tV-Xl4">
@@ -269,12 +269,12 @@
                                                     <constraint firstAttribute="height" constant="89" id="Xhn-zK-Mfm"/>
                                                     <constraint firstAttribute="width" constant="89" id="b14-q5-cfe"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
-                                                <state key="normal" title="Icy" backgroundImage="icy">
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="11"/>
+                                                <state key="normal" title="Random Hue" backgroundImage="random">
                                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="icybutton:" destination="8Kj-rW-oa7" eventType="touchUpInside" id="QaH-CN-eFr"/>
+                                                    <action selector="randombutton:" destination="8Kj-rW-oa7" eventType="touchUpInside" id="6iw-QR-UMn"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -347,10 +347,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_blurred" translatesAutoresizingMaskIntoConstraints="NO" id="lv6-py-9VJ">
-                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Image Is Saved !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pb-by-xRC">
-                                <rect key="frame" x="20" y="277" width="374" height="21"/>
+                                <rect key="frame" x="20" y="233" width="374" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -367,7 +367,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="357-BX-tPn">
-                                <rect key="frame" x="87" y="321" width="240" height="94"/>
+                                <rect key="frame" x="87" y="277" width="240" height="138"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -379,7 +379,6 @@
                             <constraint firstItem="357-BX-tPn" firstAttribute="top" secondItem="3pb-by-xRC" secondAttribute="bottom" constant="23" id="JTS-q5-d8d"/>
                             <constraint firstItem="cCY-hx-O2G" firstAttribute="bottom" secondItem="357-BX-tPn" secondAttribute="bottom" constant="321" id="Kgz-zs-M1p"/>
                             <constraint firstItem="357-BX-tPn" firstAttribute="leading" secondItem="cCY-hx-O2G" secondAttribute="leading" constant="87" id="Qwp-E7-euZ"/>
-                            <constraint firstItem="cCY-hx-O2G" firstAttribute="bottom" secondItem="GVS-Pa-MEc" secondAttribute="bottom" constant="257" id="RAx-Hv-IZO"/>
                             <constraint firstItem="GVS-Pa-MEc" firstAttribute="leading" secondItem="cCY-hx-O2G" secondAttribute="leading" constant="20" id="Vtz-rK-eEp"/>
                             <constraint firstItem="cCY-hx-O2G" firstAttribute="trailing" secondItem="357-BX-tPn" secondAttribute="trailing" constant="87" id="Zsu-ee-nYt"/>
                             <constraint firstItem="cCY-hx-O2G" firstAttribute="trailing" secondItem="3pb-by-xRC" secondAttribute="trailing" constant="20" id="bw5-40-wke"/>
@@ -392,9 +391,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cCY-hx-O2G"/>
                     </view>
-                    <navigationItem key="navigationItem" id="LK1-ye-Qyl">
-                        <barButtonItem key="rightBarButtonItem" title="Share" id="Pte-xI-SJw"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="LK1-ye-Qyl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="stg-02-oim" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -670,15 +667,16 @@
     </scenes>
     <resources>
         <image name="bw" width="1920" height="1080"/>
-        <image name="icy" width="1920" height="1080"/>
+        <image name="lana" width="1920" height="1080"/>
         <image name="main" width="1920" height="1080"/>
         <image name="main_blurred" width="1920" height="1080"/>
-        <image name="pink" width="1920" height="1080"/>
-        <image name="purple" width="1920" height="1080"/>
+        <image name="random" width="1920" height="1080"/>
+        <image name="sepia" width="1920" height="1080"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="KDF-u9-mhU"/>
         <segue reference="Wl1-Co-Gh4"/>
         <segue reference="Rra-nK-TPh"/>
-        <segue reference="6R3-6m-fxt"/>
+        <segue reference="uLA-vy-4SG"/>
     </inferredMetricsTieBreakers>
 </document>

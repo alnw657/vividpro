@@ -16,8 +16,8 @@
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollview;
 @property(nonatomic, strong) UIColor *tintColor;
 - (IBAction)blackandwhitebutton:(id)sender;
-- (IBAction)pinkbutton:(id)sender;
-- (IBAction)purplebutton:(id)sender;
-- (IBAction)icybutton:(id)sender;
+- (IBAction)sepiabutton:(id)sender;
+- (IBAction)lanabutton:(id)sender;
+- (IBAction)randombutton:(id)sender;
 - (IBAction)normalbutton:(id)sender;
 @end
