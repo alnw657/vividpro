@@ -170,12 +170,12 @@
                   moduleName = "vividpro"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/alan/Desktop/vividpro/vividpro/MainLoggedIn.h"
-                  timestampString = "550678689.361346"
+                  timestampString = "550736660.410136"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "12">
+                  offsetFromSymbolStart = "20">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -185,12 +185,12 @@
                   moduleName = "vividpro"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/alan/Desktop/vividpro/vividpro/MainLoggedIn.h"
-                  timestampString = "550678689.365605"
+                  timestampString = "550736660.412714"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "49">
+                  offsetFromSymbolStart = "64">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -426,7 +426,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "vividpro/ImageEditing.m"
-            timestampString = "550678689.245453"
+            timestampString = "550736660.2849391"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"

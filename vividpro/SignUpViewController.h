@@ -13,7 +13,7 @@
 @property (strong, nonatomic) IBOutlet UITextField *usernamefield;
 @property (strong, nonatomic) IBOutlet UITextField *passwordfield;
 @property (strong, nonatomic) IBOutlet UITextField *passwordconfirmfield;
-@property (strong, nonatomic) IBOutlet UITextField *emailfield;
+
 - (IBAction)signUpfield:(id)sender;
 
 @end

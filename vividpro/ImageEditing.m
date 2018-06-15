@@ -15,7 +15,7 @@
 @import OpenGLES;
 @import AVFoundation;
 @import QuartzCore;
-@import GPUImage;
+
 
 @interface ImageEditing ()
 
@@ -124,7 +124,8 @@
 
 
 - (IBAction)icybutton:(id)sender {
-     /*UIImageOrientation originalOrientation = _albumImage.image.imageOrientation;
+    self.albumImage.image = image;
+     UIImageOrientation originalOrientation = _albumImage.image.imageOrientation;
      CGFloat originalscale = _albumImage.image.scale;
      CIImage *beginImage = [CIImage imageWithCGImage:[_albumImage.image CGImage]];
      CIContext *context = [CIContext contextWithOptions:nil];
@@ -137,7 +138,7 @@
      
      [_albumImage setImage:newImg];
      
-     CGImageRelease(cgimg);*/
+     CGImageRelease(cgimg);
     
 
    
